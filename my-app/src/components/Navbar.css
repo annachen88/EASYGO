@@ -1,0 +1,94 @@
+.navbar{
+    background: white;
+    height: 70px;
+    top: 0;
+    z-index: 999;
+    
+}
+.navbar-container{
+    height: 80px;
+    max-width: 100%;
+    background: white;
+    /*垂直置中*/
+    display: flex;
+    align-items: center;
+    border-bottom: .0625rem solid #e5e5e5;
+}
+.menu-icon{
+    display: none;
+}
+.navbar-logo{
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    width: 30vw;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    right: 0;
+}
+.nav-item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.nav-links:hover{
+    color: gray;
+}
+
+@media screen and (max-width: 960px) {
+ .menu-icon{
+     display: flex;
+     margin-left: 30px;
+     cursor: pointer;
+ } 
+ .navbar-logo{
+     width: 60vw;
+ }
+ .nav-menu{ 
+     /* 讓上方欄位換為側邊 */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 70px;
+    left: -100%; /*讓menu隱藏*/
+    opacity: 1;
+    transition: all 0.5s ease;
+    grid-gap: 0px;
+
+ }
+ .nav-menu.active{
+    background: #ffffff;
+    left: 0;
+    opacity: 1;
+    transition: all 0.2s ease;
+    z-index: 1;
+ }
+ .nav-item{
+    align-items: center;
+    justify-content: center;
+    border-bottom: .0625rem solid #e5e5e5;
+
+ }
+ .nav-links{
+    color: rgb(116, 113, 113);
+ }
+ .nav-links:hover{
+     color: black;
+ }
+}

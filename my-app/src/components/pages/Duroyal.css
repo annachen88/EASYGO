@@ -1,0 +1,16 @@
+.product{
+    position: relative; /* relative */
+    margin-top: 40px;
+    width: 100vw;
+    display: grid; /* grid */
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+
+}
+h1{
+  font-family: abchanel-corpo,PingFangTC-Semibold,Microsoft YaHei, sans-serif;
+}
+.wrapper{
+    width: 20%;
+}
