@@ -8,24 +8,24 @@ function Duroyal(){
     }))
     
     return (
-        <div className='product'>
+        <div className='product_duroyal'>
             <h1>Duroyal</h1>
             <div className='container'>
-                <div className='wrapper'>
+                <ul className='wrapper'>
                     {
                        DuroyalData.map((item=>{
                         return(
-                            <ul className='row'>
+                            // <div>
                                 <Products
                                 src={item.src[0]}
                                 text={item.text}
                                 content={item.content}
                                 />
-                            </ul>
+                            // </div>
                         )
                     }))
                     }
-                </div>
+                </ul>
 
             </div>
             

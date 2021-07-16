@@ -1,16 +1,26 @@
-.product{
-    position: relative; /* relative */
-    margin-top: 40px;
+.product_duroyal{
     width: 100vw;
-    display: grid; /* grid */
-    align-items: center;
-    justify-content: center;
-    top: 30px;
-
 }
 h1{
-  font-family: abchanel-corpo,PingFangTC-Semibold,Microsoft YaHei, sans-serif;
+    margin-left:35px;
+    margin-top:30px;
 }
-.wrapper{
-    width: 20%;
+.container{
+    display: flex;
+    /* align-items: center; */
+    width: 100vw;
+    justify-content: center;
+
+}
+.wrapper {
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+.row{
+    width: 50px;
 }

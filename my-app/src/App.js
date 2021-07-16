@@ -6,7 +6,6 @@ import Duroyal from './components/pages/Duroyal';
 import Imei from './components/pages/Imei';
 import Shaomei from './components/pages/Shaomei';
 
-
 import {BrowserRouter as Router, Switch ,Route} from 'react-router-dom';
 
 function App() {

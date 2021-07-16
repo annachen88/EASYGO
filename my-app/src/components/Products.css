@@ -1,0 +1,24 @@
+.out{
+    display: flex;
+    /* flex: 1; */
+    margin: 0;
+    border-radius: 10px;
+    width: 300px;
+}
+.product{
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 0 6px #e5e5e5;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+
+}
+.product-img{
+    width: 250px;
+}
