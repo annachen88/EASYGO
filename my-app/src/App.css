@@ -4,3 +4,30 @@
   padding: 0;
   font-family: Century Gothic Std,abchanel-corpo,PingFangTC-Semibold,Microsoft YaHei, sans-serif;
 }
+.scroll{
+  position: fixed;
+  bottom: 12px;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  border-radius: 100%;
+  background: #e5e5e5;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.scroll .fas{
+  animation: scrollTop 0.5s alternate ease;
+  font-size: 22px;
+}
+@keyframes scrollTop{
+  from{
+      transform: translateY(2px);
+  }
+  to{
+      transform: translateY(-1px);
+  }
+}

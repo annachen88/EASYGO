@@ -3,16 +3,17 @@
     height: 70px;
     top: 0;
     z-index: 999;
-    
 }
 .navbar-container{
     height: 80px;
-    max-width: 100%;
+    width: 100%;
     background: white;
     /*垂直置中*/
     display: flex;
     align-items: center;
     border-bottom: .0625rem solid #e5e5e5;
+    position: fixed;    
+    z-index: 999;
 }
 .menu-icon{
     display: none;
@@ -54,9 +55,12 @@
      display: flex;
      margin-left: 30px;
      cursor: pointer;
+     font-size: 25px;
+     color: gray;
  } 
  .navbar-logo{
      width: 60vw;
+     
  }
  .nav-menu{ 
      /* 讓上方欄位換為側邊 */
@@ -70,13 +74,14 @@
     opacity: 1;
     transition: all 0.5s ease;
     grid-gap: 0px;
+   
 
  }
  .nav-menu.active{
     background: #ffffff;
     left: 0;
     opacity: 1;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
     z-index: 1;
  }
  .nav-item{

@@ -1,4 +1,5 @@
 import '../../App.css';
+import './Home.css'
 import MainSection from '../MainSection';
 import { SliderData } from '../SliderData';
 

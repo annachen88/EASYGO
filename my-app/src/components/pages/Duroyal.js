@@ -1,7 +1,9 @@
 import React from 'react';
 import Products from '../Products';
+import ScrollTop from '../ScrollTop';
 import './Duroyal.css';
 import { DuroyalData } from '../DuroyalData';
+
 function Duroyal(){
     DuroyalData.map((item=>{
         console.log(item.src[0])
@@ -26,7 +28,7 @@ function Duroyal(){
                     }))
                     }
                 </ul>
-
+                <ScrollTop></ScrollTop>
             </div>
             
         </div>

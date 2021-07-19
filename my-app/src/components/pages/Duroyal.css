@@ -24,3 +24,28 @@ h1{
 .row{
     width: 50px;
 }
+.scroll{
+    position: fixed;
+    bottom: 12px;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    border-radius: 100%;
+    background: #e5e5e5;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.scroll .fas{
+    animation: scrollTop 0.5s alternate ease;
+}
+@keyframes scrollTop{
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+}
