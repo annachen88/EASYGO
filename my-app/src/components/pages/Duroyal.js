@@ -11,7 +11,7 @@ function Duroyal(){
     
     return (
         <div className='product_duroyal'>
-            <h1>Duroyal</h1>
+            <p>杜老爺</p>
             <div className='container'>
                 <ul className='wrapper'>
                     {
