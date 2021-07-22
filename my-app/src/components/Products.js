@@ -15,7 +15,7 @@ function Products(props){
             {/* <Link className='product-link' to={props.path}> */}
                 <figure className='product-figure'>
                     <img className='product-img' 
-                    src={require('../components/products/杜老爺'+props.src).default}
+                    src={require('../components/products/'+props.src).default}
                     ></img>
                 </figure>
                     {!toggleHover &&
