@@ -62,3 +62,58 @@
 .product:hover .detail_btn{
     cursor: pointer;
 }
+.detail_container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e5e5e5; */
+ 
+}
+.close_btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-top: 8px;
+ 
+}
+.fas{
+    color: gray;
+    cursor: pointer;
+}
+.detail_wrapper{
+    position: fixed;
+    width: 50%;
+    height: 500px;
+    background: white;
+    z-index: 9999;
+    border: 1px solid #e5e5e5 ;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 6px #e5e5e5;
+    /* display: flex; */
+}
+
+.mainImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+
+}
+.detail_right{
+    width: 50%;
+    height: 100%;
+}
+.showImage{
+    width: 280px;;
+}
+
