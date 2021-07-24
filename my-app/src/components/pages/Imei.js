@@ -19,9 +19,11 @@ function Imei(){
                     return(
                         // <div>
                             <Products
-                            src={item.src[0]}
+                            src={item.src}
                             text={item.text}
                             content={item.content}
+                            flavors={item.flavors}
+                            number={item.number}
                             />
                         // </div>
                     )

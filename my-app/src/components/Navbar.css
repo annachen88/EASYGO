@@ -59,15 +59,14 @@
      color: gray;
  } 
  .navbar-logo{
-     width: 60vw;
-     
+     width: 50vw;
  }
  .nav-menu{ 
      /* 讓上方欄位換為側邊 */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 70px;
     left: -100%; /*讓menu隱藏*/
